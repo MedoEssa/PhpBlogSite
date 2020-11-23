@@ -1,0 +1,96 @@
+.uploadify{position:relative;margin-bottom:1em}.uploadify-button{background-color:#505050;background-image:linear-gradient(bottom,#505050 0%,#707070 100%);background-image:-o-linear-gradient(bottom,#505050 0%,#707070 100%);background-image:-moz-linear-gradient(bottom,#505050 0%,#707070 100%);background-image:-webkit-linear-gradient(bottom,#505050 0%,#707070 100%);background-image:-ms-linear-gradient(bottom,#505050 0%,#707070 100%);background-image:-webkit-gradient( linear,left bottom,left top,color-stop(0,#505050),color-stop(1,#707070) );background-position:center top;background-repeat:no-repeat;-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px;border:2px solid gray;color:#fff;font:700 12px Arial,Helvetica,sans-serif;text-align:center;text-shadow:0 -1px 0 rgba(0,0,0,.25);width:100%}.uploadify:hover .uploadify-button{background-color:#606060;background-image:linear-gradient(top,#606060 0%,#808080 100%);background-image:-o-linear-gradient(top,#606060 0%,#808080 100%);background-image:-moz-linear-gradient(top,#606060 0%,#808080 100%);background-image:-webkit-linear-gradient(top,#606060 0%,#808080 100%);background-image:-ms-linear-gradient(top,#606060 0%,#808080 100%);background-image:-webkit-gradient( linear,left bottom,left top,color-stop(0,#606060),color-stop(1,#808080) );background-position:center bottom}.uploadify-button.disabled{background-color:#d0d0d0;color:gray}.uploadify-queue{margin-bottom:1em}.uploadify-queue-item{background-color:#f5f5f5;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;font:11px Verdana,Geneva,sans-serif;margin-top:5px;max-width:350px;padding:10px}.uploadify-error{background-color:#fde5dd!important}.uploadify-queue-item .cancel a{background:url(../img/uploadify-cancel.png) 0 0 no-repeat;float:right;height:16px;text-indent:-9999px;width:16px}.uploadify-queue-item.completed{background-color:#e5e5e5}.uploadify-progress{background-color:#e5e5e5;margin-top:10px;width:100%}.uploadify-progress-bar{background-color:#09f;height:3px;width:1px}
+textarea:focus, 
+textarea.form-control:focus, 
+input.form-control:focus, 
+input[type=text]:focus, 
+input[type=password]:focus, 
+input[type=email]:focus, 
+input[type=number]:focus, 
+[type=text].form-control:focus, 
+[type=password].form-control:focus, 
+[type=email].form-control:focus, 
+[type=tel].form-control:focus, 
+[contenteditable].form-control:focus {
+  box-shadow: inset 0 -1px 0 #ddd;
+}
+
+
+/* =================================== 
+           START PAGINATION
+   =================================== */
+
+.pagination {
+  text-align: center;
+  display: block;
+  margin-bottom: 20px;
+}
+.pagination ul {
+  list-style: none;
+}
+.pagination ul li {
+  display: inline-block;
+  padding-right: 5px;
+}
+.pagination ul li a.active-link {
+  background-color: #111;
+  color: #fff;
+}
+
+.pagination ul li a {
+  display: block;
+    background: #fff;
+    padding: 3px 10px;
+    transition: all 0.3s ease-in;
+    color: #999;
+    border: 3px solid #e9e9e9;
+    text-decoration: none !important;
+}
+
+.pagination ul li a.active-link {
+  background-color: #54b4eb;
+  color: #fff;
+}
+
+.pagination ul li a:hover {
+   /*background-color: #939AE5;*/
+}
+
+
+
+/* =================================== 
+           END PAGINATION
+   =================================== */
+
+
+   /*********************** LOADING EFFECT ****************/
+
+
+#load-screen {
+background: url(../../images/header-back.png);
+position: fixed;
+z-index: 10000;
+top:0px;
+width: 100%;
+height: 1600px;
+
+}
+
+
+#loading {
+
+width: 500px;
+height: 500px;
+margin: 10% auto;
+background: url(../../images/loader.gif);
+background-size: 40%;
+background-repeat: no-repeat;
+background-position: center;
+
+}
+
+ul.top-menu li:last-child {
+      padding-left: 10px;
+}
+
+
+
